@@ -16,3 +16,19 @@ How to attempt this challenge:
 4) Set your new repo as the origin: `git remote set-url origin ${your repo url}`
 5) Push your solution to your repo
 You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
+
+## My Solution
+
+- `git clone https://github.com/Interlincx/challenge-git.git`
+
+- go to folder
+
+- `git checkout add-echo`
+
+- `git checkout add-reverse`
+
+- `git rebase --onto master add-echo add-reverse`
+
+- `git remote set-url origin https://github.com/darshakhp/interlincx-git-challenge.git`
+
+- `git push origin master`
